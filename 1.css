@@ -1,3 +1,8 @@
 :root {
-    width: 66vh;
+    width: 366px;
+}
+
+body{
+    margin: 22;
+    width: 355
 }
