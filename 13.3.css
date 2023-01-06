@@ -13,23 +13,23 @@ body{
     color: rgba(15, 75, 131, 0.712);
 }
 .info{
+    line-height: 6vh;
+    height: 6vh;
     color: rgb(0, 0, 0);
     background-color: rgba(0, 255, 255, 0.479);
     margin-left: -2vw;
     margin-right: -2vw;
+    margin-bottom: 5vh;
 }
 .list-container{
     color: rgba(41, 7, 154, 0.757);
-    margin-top: -55px;
-    margin-bottom: -40px;
-    padding-bottom: 6px;
-    padding-top: 6px;
+    
 }
 .list-title{
     text-align: left;
-    margin-bottom: -27px;
 }
-.list{
+.list{ 
+    line-height: 8vh;
     text-align: left;
     list-style-type: circle
 }
