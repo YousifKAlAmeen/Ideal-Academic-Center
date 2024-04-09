@@ -1,4 +1,5 @@
-body{
+/* Common styles for all screens */
+body {
     background: rgba(16, 61, 2, 0.445);
     color: rgba(0, 0, 0, 0.925);
     font-size: 2.6vw;
@@ -16,14 +17,26 @@ table th, table td {
 ul {
     list-style-type: none;
 }
+
 li {
     line-height: 5vw;
 }
 
-.title{
+.title {
     color: rgba(15, 75, 131, 0.712);
 }
 
-.info{
+.info {
     background-color: rgba(0, 255, 255, 0.479);
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px; /* Set a specific font size for phones */
+    }
+
+    li {
+        line-height: 1.5; /* Adjust the line height for better readability on phones */
+    }
 }
