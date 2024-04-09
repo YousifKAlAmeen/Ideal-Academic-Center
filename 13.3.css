@@ -31,7 +31,7 @@ li {
 }
 
 /* Media query for phones */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 9cm) {
     body {
         font-size: 16px; /* Set a specific font size for phones */
     }
